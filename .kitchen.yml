@@ -32,9 +32,9 @@ suites:
   - name: centraloffice
     provisioner:
       grains:
-        device: epsonprinter
+        device: fujitsuprinter
       state_top:
         base:
           '*':
-              - epson.epson_javapos_adk
+              - fujitsu.fujitsu_javapos
 
